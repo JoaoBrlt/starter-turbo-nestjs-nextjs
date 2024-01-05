@@ -1,9 +1,7 @@
 {
-  "name": "@repo/typescript-config",
-  "version": "0.0.0",
-  "private": true,
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  }
+  "name": "@starter/typescript-config",
+  "version": "1.0.0",
+  "description": "Starter - TypeScript config",
+  "license": "GPL-3.0-only",
+  "author": "João Brilhante"
 }
