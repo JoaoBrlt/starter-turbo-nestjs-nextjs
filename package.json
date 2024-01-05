@@ -1,6 +1,8 @@
 {
   "name": "starter-turbo-nestjs-nextjs",
-  "private": true,
+  "description": "Starter - Turborepo - NestJS - Next.js",
+  "license": "GPL-3.0-only",
+  "author": "João Brilhante",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
