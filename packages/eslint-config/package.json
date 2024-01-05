@@ -1,7 +1,9 @@
 {
-  "name": "@repo/eslint-config",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@starter/eslint-config",
+  "version": "1.0.0",
+  "description": "Starter - ESLint config",
+  "license": "GPL-3.0-only",
+  "author": "João Brilhante",
   "files": [
     "library.js",
     "next.js",
