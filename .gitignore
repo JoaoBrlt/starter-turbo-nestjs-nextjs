@@ -1,0 +1,30 @@
+# Untracked files, see https://git-scm.com/docs/gitignore
+
+# Outputs
+dist/
+.next/
+
+# Dependencies
+node_modules/
+
+# Testing
+coverage/
+
+# Turbo
+.turbo/
+
+# Environment files
+.env
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
