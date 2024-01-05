@@ -4,11 +4,11 @@
   "license": "GPL-3.0-only",
   "author": "João Brilhante",
   "scripts": {
-    "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint",
     "format": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "format:fix": "prettier --write .",
+    "lint": "turbo lint",
+    "build": "turbo build"
   },
   "devDependencies": {
     "prettier": "^3.1.1",
