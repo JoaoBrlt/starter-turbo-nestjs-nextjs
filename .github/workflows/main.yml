@@ -1,0 +1,49 @@
+---
+name: CI
+
+"on":
+  # When a commit is pushed
+  push:
+
+  # Manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-22.04
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout the project
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install the dependencies
+        run: npm ci
+
+      - name: Scan for vulnerabilities
+        run: npm run audit
+
+      - name: Check the dependency versions
+        run: npm run sync
+
+      - name: Check the format
+        run: npm run format
+
+      - name: Lint the packages
+        run: npm run lint
+
+      - name: Test the packages
+        run: npm run test
+
+      - name: Build the packages
+        run: npm run build

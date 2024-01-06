@@ -31,7 +31,6 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "npm@10.2.5",
   "workspaces": [
     "apps/*",
     "packages/*"
