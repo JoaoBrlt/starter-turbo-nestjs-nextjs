@@ -44,6 +44,20 @@ Try to fix the linting issues:
 npm run lint:fix
 ```
 
+## Test
+
+Run the tests:
+
+```bash
+npm run test
+```
+
+Run the end-to-end tests:
+
+```bash
+npm run test:e2e
+```
+
 ## Build
 
 Build the packages:

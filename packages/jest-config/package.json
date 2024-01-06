@@ -1,0 +1,14 @@
+{
+  "name": "@starter/jest-config",
+  "version": "1.0.0",
+  "description": "Starter - Jest config",
+  "license": "GPL-3.0-only",
+  "author": "João Brilhante",
+  "files": [
+    "nest.js",
+    "nest-e2e.js"
+  ],
+  "devDependencies": {
+    "ts-jest": "^29.1.1"
+  }
+}

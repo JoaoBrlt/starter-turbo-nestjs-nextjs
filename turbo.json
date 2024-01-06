@@ -8,6 +8,8 @@
     },
     "lint": {},
     "lint:fix": {},
+    "test": {},
+    "test:e2e": {},
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**", "!.next/cache/**"]
