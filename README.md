@@ -38,6 +38,12 @@ Lint the packages:
 npm run lint
 ```
 
+Try to fix the linting issues:
+
+```bash
+npm run lint:fix
+```
+
 ## Build
 
 Build the packages:
