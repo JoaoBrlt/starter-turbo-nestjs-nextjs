@@ -16,6 +16,20 @@ Start the applications (in development mode):
 npm run dev
 ```
 
+## Format
+
+Check the format of the code:
+
+```bash
+npm run format
+```
+
+Format the code:
+
+```bash
+npm run format:fix
+```
+
 ## Lint
 
 Lint the packages:

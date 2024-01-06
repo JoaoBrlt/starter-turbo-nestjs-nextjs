@@ -1,0 +1,14 @@
+# Files ignored by Prettier, see https://prettier.io/docs/en/ignore.html
+
+# Outputs
+dist/
+.next/
+
+# Testing
+coverage/
+
+# Dependencies
+node_modules/
+
+# Turbo
+.turbo/
