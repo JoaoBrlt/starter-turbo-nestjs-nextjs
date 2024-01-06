@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "author": "João Brilhante",
   "scripts": {
-    "build": "nest build",
+    "dev": "npm run start:dev",
     "start": "nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
@@ -13,9 +13,10 @@
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:cov": "jest --coverage",
+    "test:coverage": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "build": "nest build"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
