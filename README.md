@@ -1,5 +1,7 @@
 # Starter - Turborepo - NestJS - Next.js
 
+[![CI][main]][main-url]
+
 ## Dependencies
 
 Install the dependencies:
@@ -107,3 +109,6 @@ Build the packages:
 ```bash
 npm run build
 ```
+
+[main]: https://github.com/JoaoBrlt/starter-turbo-nestjs-nextjs/actions/workflows/main.yml/badge.svg
+[main-url]: https://github.com/JoaoBrlt/starter-turbo-nestjs-nextjs/actions/workflows/main.yml
