@@ -16,6 +16,20 @@ Start the applications (in development mode):
 npm run dev
 ```
 
+## Synchronize
+
+Find dependency version mismatches:
+
+```bash
+npm run sync
+```
+
+Fix dependency version mismatches:
+
+```bash
+npm run sync:fix
+```
+
 ## Format
 
 Check the format of the code:
