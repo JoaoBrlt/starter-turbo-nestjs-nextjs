@@ -1,10 +1,9 @@
 import { Module } from "@nestjs/common";
-import { AppController } from "./app.controller";
-import { AppService } from "./app.service";
 import { TypeOrmModule } from "@nestjs/typeorm";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import configuration from "./config/configuration";
 import { validate } from "./config/validation";
+import { HotelsModule } from "./hotels/hotels.module";
 
 @Module({
   imports: [
@@ -27,10 +26,12 @@ import { validate } from "./config/validation";
         password: configService.get("database.password"),
         entities: ["dist/**/*.entity.{js,ts}"],
         synchronize: true,
+        autoLoadEntities: true,
       }),
     }),
+
+    // Features
+    HotelsModule,
   ],
-  controllers: [AppController],
-  providers: [AppService],
 })
 export class AppModule {}
