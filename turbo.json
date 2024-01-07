@@ -6,6 +6,9 @@
       "cache": false,
       "persistent": true
     },
+    "clean": {
+      "cache": false
+    },
     "lint": {},
     "lint:fix": {},
     "test": {},

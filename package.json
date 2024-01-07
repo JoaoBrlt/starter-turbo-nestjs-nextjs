@@ -5,6 +5,7 @@
   "author": "João Brilhante",
   "scripts": {
     "dev": "turbo dev",
+    "clean": "turbo clean",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "lint": "turbo lint",
