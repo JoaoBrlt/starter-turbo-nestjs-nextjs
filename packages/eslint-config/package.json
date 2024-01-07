@@ -4,11 +4,13 @@
   "description": "Starter - ESLint config",
   "license": "GPL-3.0-only",
   "author": "João Brilhante",
-  "main": "index.js",
+  "files": [
+    "nest.js"
+  ],
   "devDependencies": {
-    "eslint-config-turbo": "^1.10.12",
-    "eslint-config-prettier": "^9.0.0",
-    "@typescript-eslint/parser": "^6.11.0",
-    "@typescript-eslint/eslint-plugin": "^6.11.0"
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "@typescript-eslint/parser": "^6.18.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jest": "^27.6.1"
   }
 }
