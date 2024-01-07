@@ -16,6 +16,20 @@ Start the applications (in development mode):
 npm run dev
 ```
 
+## Audit
+
+Run a security audit:
+
+```bash
+npm run audit
+```
+
+Resolve the reported vulnerabilities:
+
+```bash
+npm run audit:fix
+```
+
 ## Synchronize
 
 Find dependency version mismatches:
