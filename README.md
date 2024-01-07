@@ -30,6 +30,20 @@ Resolve the reported vulnerabilities:
 npm run audit:fix
 ```
 
+## Update
+
+Find newer versions of package dependencies:
+
+```bash
+npm run check-updates
+```
+
+Interactively choose which packages to update:
+
+```bash
+npm run update
+```
+
 ## Synchronize
 
 Find dependency version mismatches:

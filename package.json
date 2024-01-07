@@ -8,6 +8,8 @@
     "clean": "turbo clean",
     "audit": "check-audit",
     "audit:fix": "resolve-audit",
+    "check-updates": "ncu --root --workspaces",
+    "update": "ncu --root --workspaces --interactive",
     "sync": "syncpack list-mismatches",
     "sync:fix": "syncpack fix-mismatches",
     "format": "prettier --check .",
@@ -21,6 +23,7 @@
   "devDependencies": {
     "@nestjs/cli": "^10.2.1",
     "npm-audit-resolver": "^3.0.0-RC.0",
+    "npm-check-updates": "^16.14.12",
     "prettier": "^3.1.1",
     "syncpack": "^12.3.0",
     "turbo": "latest"
