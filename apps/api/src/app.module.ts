@@ -4,6 +4,7 @@ import { AppService } from "./app.service";
 import { TypeOrmModule } from "@nestjs/typeorm";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 import configuration from "./config/configuration";
+import { validate } from "./config/validation";
 
 @Module({
   imports: [
@@ -11,6 +12,7 @@ import configuration from "./config/configuration";
     ConfigModule.forRoot({
       isGlobal: true,
       load: [configuration],
+      validate,
     }),
 
     // Database
